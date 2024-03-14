@@ -19,7 +19,7 @@ jobs:
         run: echo Hello, world!
 
       - name: Run a multi-line script
-        run: |
+        run: Arithamatic  
           A=1
           B=2
           C=$((A + B))
