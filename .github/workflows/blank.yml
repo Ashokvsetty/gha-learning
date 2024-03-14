@@ -24,3 +24,6 @@ jobs:
           B=2
           C=$((A + B))
           echo ${C}
+
+      - name: Run a One-line command
+        run: hostname
